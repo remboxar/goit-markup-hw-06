@@ -769,6 +769,7 @@ flex-basis: calc((100% - 48px) / 3);
 
 .checkbox-icon {
     position: absolute;
+    left:0;
     width: 16px;
     height: 16px;
     border: 1px solid var(--headings-color);
@@ -788,6 +789,8 @@ flex-basis: calc((100% - 48px) / 3);
     background-position: center;
 }
 .checkbox-label {
+    display: flex;
+    align-items: center;
     cursor: pointer;
     color: var(--light-slate-color);
     font-size: 12px;

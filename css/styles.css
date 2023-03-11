@@ -725,7 +725,7 @@ flex-basis: calc((100% - 48px) / 3);
 }
 
 .contact-form-textarea .textarea{
-    padding: 0 0 0 14px;
+    padding: 4px 0 0 14px;
 }
 .textarea::placeholder{
     padding:8px 0 0 0;
@@ -801,4 +801,5 @@ flex-basis: calc((100% - 48px) / 3);
 
 .privacy-policy {
     color:var(--primary-brand-color);
+    margin-left:4px;
 }
